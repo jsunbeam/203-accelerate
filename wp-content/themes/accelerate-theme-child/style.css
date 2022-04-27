@@ -50,3 +50,46 @@ Text Domain:  accelerate-theme-child
     color: #45ac9d;
     text-transform: uppercase;
 }
+
+/*----front page featured work styles----*/
+.individual-featured-work {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.individual-featured-work li {
+    list-style: none;
+}
+
+.individual-featured-work h3 {
+    text-align: center;
+    font-weight: 300;
+    font-stretch: 0%;
+    margin: 5px;
+}
+
+.featured-work h4 {
+    text-align: center;
+    margin: 0 0 35px 0;
+}
+
+
+/*--- Case Studies Page styles ---*/
+.case-study {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.case-study-sidebar {
+    width: 40%;
+}
+
+.case-study-images {
+    width: 50%;
+}
+
+
