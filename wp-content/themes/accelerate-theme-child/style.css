@@ -93,4 +93,23 @@ Text Domain:  accelerate-theme-child
 }
 
 
+/*--- Social Media icon styles ---*/
 
+.menu-social-media-nav-container li {
+    list-style: none;
+    border-radius: 50%;
+    background-color: #414241;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    margin-right: 10px;
+    padding-top: 4px;
+}
+
+.menu-social-media-nav-container a {
+    color: white;
+}
+
+.menu-social-media-nav-container ul {
+    display: flex;
+}
