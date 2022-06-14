@@ -16,6 +16,10 @@ Text Domain:  accelerate-theme-child
     background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
 }
 
+.home-page h1 {
+    font-family: 'Kaushan Script', cursive;
+}
+
 #masthead {
     background: none repeat scroll 0 0 #45ac9d;
 }
@@ -74,6 +78,23 @@ Text Domain:  accelerate-theme-child
     margin: 0 0 35px 0;
 }
 
+/*----front page Twitter feed styles----*/
+.recent-posts .site-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+div#secondary {
+    width: 45%;
+}
+
+div#secondary h4 {
+    font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
+    color: #a6a6a6;
+    text-transform: uppercase;
+    margin: 2em 0 0.5em;
+}
+
 
 /*--- Case Studies Page styles ---*/
 .case-study {
@@ -113,3 +134,86 @@ Text Domain:  accelerate-theme-child
 .menu-social-media-nav-container ul {
     display: flex;
 }
+
+/*-----Contact Us page-----*/
+
+div#nf-field-4-container {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+/*-----About Page Styles-----*/
+
+#about-header {
+    color: white;
+    width: 45%;
+    font-size: 1.5em;
+}
+
+.page-id-47359 h2 {
+    text-align: center;
+    margin: 0 30px;
+}
+
+.page-id-47359 div#primary {
+    padding: 2em 0;
+}
+
+.page-id-47359 .main-content {
+    padding: 0;
+}
+
+#about-page-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*----404 Page Styles----*/
+.error404 {
+    background-image: url('img/forest-background.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+
+.error404 .main-content {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.error404 article {
+    background-color:rgba(255, 255, 255, 0.7);
+    width: 60%;
+    padding: 30px 60px;
+}
+
+.error404 p {
+    color: black;
+}
+
+.error404 h2 {
+    margin: 0;
+    font-family: 'Kaushan Script', cursive;
+}
+
+#colophon {
+    background-color:rgba(255, 255, 255, 0.7);
+    padding-top: 0;
+}
+
+.error404 #page {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    min-height: 100vh;
+}
+
+.error404 footer {
+    margin-top: auto;
+    padding-left: 30px;
+}
+
+
